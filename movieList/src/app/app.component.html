@@ -1,0 +1,13 @@
+<div class="page">
+
+<h2><strong>movie list</strong></h2>
+
+        <app-child1 (onMovieSelected)="onMovieUpdate($event)"></app-child1>
+</div>
+
+<div>
+
+<app-child2 [selectedMovie]="currentMovie"></app-child2>
+
+</div>
+

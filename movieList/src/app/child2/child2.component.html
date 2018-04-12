@@ -1,0 +1,23 @@
+<div *ngIf="selectedMovie" class="result">
+
+        <span><strong>selected movie: </strong></span>
+        <span>{{selectedMovie.movie_name}}</span>
+
+
+    <table class="table table-bordered">
+        <tr>
+
+            <th>price:</th>
+            <th>date:</th>
+        </tr>
+
+        <tr>
+            <td>$ {{selectedMovie.price}}</td>
+            <td>{{selectedMovie.movie_date}}</td>
+
+        </tr>
+
+    </table>
+
+
+</div>

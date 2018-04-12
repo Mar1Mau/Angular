@@ -1,0 +1,27 @@
+div{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 700px;
+    background-color:lightgray;
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+table.table-bordered{
+   margin-left: 165px;
+    margin-top: 50px;
+    width:70px;
+    text-align: center;
+    border:2px solid black;
+    
+    
+    
+}
+
+
+
+
+
+

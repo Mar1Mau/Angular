@@ -1,0 +1,11 @@
+<div class="list" *ngFor="let movie of localMovieData">
+
+    <span id="id">{{movie.id}}</span> 
+  
+    <span>
+         <button (click) = "onMovieClick(movie)" type="button" class="btn btn-success">{{movie.movie_name}}</button>
+    </span>
+  
+
+</div>
+
