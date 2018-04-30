@@ -1,0 +1,17 @@
+<div class="container">
+  <div>
+
+    <h1>Welcome to Ajax Request</h1>
+
+<hr>
+    <div *ngFor="let x of usersData.data">
+      <p>First name: {{x.first_name}}</p>
+      <p>Last name: {{x.last_name}}</p>
+      <p>Full name: {{x.first_name}} {{x.last_name}}</p>
+      <img [src]="x.avatar" />
+
+    </div>
+
+  </div>
+
+</div>
